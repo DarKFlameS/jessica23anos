@@ -29,6 +29,13 @@ main {
 	opacity: 0.75;
 }
 
+.comments {
+	background: #ffffff;
+	margin: auto;
+	padding: 15px;
+	opacity: 1;
+}
+
 h1 {
 	font-family: 'Crete Round', serif;
 	font-weight: bold;
@@ -55,6 +62,10 @@ footer {
 		max-width: 1024px;
 	}
 
+	.comments {
+		max-width: 1024px;
+	}
+
 	p {
 		font-family: 'Imprima', sans-serif;
 	}
@@ -74,6 +85,10 @@ footer {
 		max-width: 640px;
 	}
 
+	.comments {
+		max-width: 640px;
+	}	
+
 	p {
 		font-family: 'Imprima', sans-serif;
 	}
@@ -92,6 +107,10 @@ footer {
 	main {
 		max-width: 320px;
 	}
+
+	.comments {
+		max-width: 320px;
+	}	
 
 	p {
 		font-family: 'Imprima', sans-serif;
